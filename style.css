@@ -47,6 +47,22 @@ input {
     right: 200px;
 }
 
+.pausebutton {
+    border: 2px solid #1e488c;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+    /*border-radius: 20px;*/
+    transition: all .3s;
+}
+
+.pausebutton:hover {
+    border-radius: 20px;
+    background-color: yellow;
+}
+
 .modal {
     position: fixed;
     text-transform: uppercase;
