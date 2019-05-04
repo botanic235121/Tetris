@@ -1,13 +1,11 @@
 let overlay = document.querySelector('.overlay');
 let modal = document.querySelector('.modal');
-let pausebutton = document.querySelector('.pausebutton');
 let speed = 0;
 
-pausebutton.addEventListener('click', function (e) {
-    if (e) {
-        alert("Game paused");
-    }
-});
+
+function pauseGame(){
+    window.alert("Game Paused");
+}
 
 modal.addEventListener('click', function (e) {
     if (e.target.classList.contains('easy')) {
